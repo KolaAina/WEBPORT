@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #ffffff !important;
+}
+ .navbar{
+    background-color: transparent;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #7510f7 !important;
+}
+.btn{
+    border: 2px  solid #7510f7;
+    color: #7510f7 !important;
+    font-weight: 400;
+}
+.btn:hover{
+   background-color: #7510f7 !important;
+   color: #fff !important;
+}
+
+ 
+
+.container-1 h1{
+    font-size: 3em !important;
+}
+.container-1 p{
+    font-size: 1.2em;
+}
+i {
+    align-items: center;
+    font-size: 15em !important;
+    margin-top: 3rem;
+    color: #7510f7;
+}
+ section img{
+     
+      width: 100% !important;
+      height: 100% !important;
+
+     } 
+
+.container-2 h1{
+    /* background-color: #141c3a; */
+    color: #fff;
+}
+.container-2 p{
+    color: #fff;
+    font-weight: 400;
+}
+.container-3 i{
+    font-size: 5rem;
+}
+.container-4{
+    height: 10em;
+    padding-top: 1.5em;
+    background-color: #141c3a;
+    color:#ffffff;
+}
+.container-5{
+    background-color: #7510f7;
+    color: #ffffff;
+
+}
+.container-6{
+    background-color: #141c3a;
+    color: #ffffff;
+}
+.cc-skills {
+    margin-top: -10rem;
+    border: none;
+    border-radius: 10px;
+}
+article{
+    background-color: #7510f7;
+}
+
+/* portfolio cards */
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.cc-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-body {
+    position: relative;
+}
+
+.cc-site {}
+
+.cc-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 4rem;
+}
+
+.cc-overlay:hover {
+    display: none;
+}
+
+.cc-container {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.cc-logo {
+    filter: grayscale();
+}
+
+.cc-logo:hover {
+    filter: grayscale(0);
+}
+
+.cc-clipped-div {
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 50% 100%, 0 79%);
+}
+
+/* DESKTOP VIEW */
+
+/* Small devices (landscape phones) */
+@media (min-width:576px) {
+
+    .card {
+        width: 25rem;
+    }
+     section img{
+      width:300px;
+      height: 200px;
+    } 
+    
+}
+
+/* Medium devices (tablets) */
+@media (min-width:768px) {}
+
+/* Large devices (desktops) */
+@media (min-width:992px) {}
+
+/* Extra large devices (large desktops) */
+@media (min-width:1200px) {}
+
+
+
+
+
+
+
+
